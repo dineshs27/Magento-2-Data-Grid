@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Custom. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Custom_Volusionorder::custom_volusionorder_index" title="Old Store Orders" module="Custom_Volusionorder" parent="Magento_Sales::sales_operation" sortOrder="10" dependsOnModule="Custom_Volusionorder" action="volusionorder/volusionorder/index" resource="Custom_Volusionorder::custom_volusionorder_index"/>
+<!--AddMenu-->
+    </menu>
+</config>
